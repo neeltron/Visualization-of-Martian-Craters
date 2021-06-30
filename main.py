@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 import seaborn
 
 data = pd.read_csv('data/Mars Crater Dataset.csv')
@@ -11,3 +10,5 @@ sub2 = sub1.copy()
 plt = seaborn.countplot(x="NUMBER_LAYERS", data=sub2)
 fig = plt.get_figure()
 fig.savefig('a.png') 
+
+
